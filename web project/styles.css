@@ -1,0 +1,42 @@
+h1{
+    color: red;
+    text-align: center;
+
+    
+}
+
+title{
+    color:red;
+    
+}
+
+body{
+    background-color: black;
+}
+
+img{
+    
+    text-align: center;
+}
+div{
+    text-align: center;
+    
+}
+h2{
+    color: red;
+    text-align: center;
+    margin-right: 15%;
+}
+
+img{
+    z-index: 1;
+}
+img[src = "My Web Page Images/below tats thing.png"]{
+    z-index: 2;
+}
+
+#blah img[src="My Web Page Images/below tats thing.png"]{
+    position: relative;
+    z-index: 2;
+    display: inline-block;
+}
